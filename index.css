@@ -1,4 +1,9 @@
 body {
   padding-top: 50px;
   background-color: lightblue
+  .user a:hover,
+.user a:focus,
+.search input:focus,
+.search button:focus {
+  outline: 5px dotted salmon;
 }

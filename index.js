@@ -21,4 +21,7 @@ function renderResult(data, items) {
   for (let i = 0; i < data.items.length; i++) {
     $('.js-output').append(`Title<li>${data.items[i].snippet.title}<\li><div> Description</div>${data.items[i].snippet.description}</div><div><img src= ${data.items[i].snippet.thumbnails.medium.url}></div>`);
   }
+    outputElem
+    .prop('hidden', false)
+    .html(errMsg);
 }
